@@ -1,0 +1,76 @@
+/*COMMON*/
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	margin: auto;
+	width: 80%;
+}
+
+/*HEADER*/
+header {
+	background-image: url("img/pattern.png");
+	background-color: #52c8c8;
+}
+
+header > .testa {
+	padding-top: 30px;
+}
+
+header .logo {
+	height: 65px;
+}
+
+/*MAIN*/
+h3 > span {
+	color: #46c5ec;
+}
+
+main .photos {
+	padding-top: 15px;
+}
+
+p > span {
+	background-color: yellow;
+}
+
+main .article > * {
+	padding-top: 35px;
+}
+
+main .article > ul {
+	list-style-position: inside;
+}
+
+table .head {
+	background-color: blue;
+	color: white;
+}
+
+table .content {
+	background-color: lightblue;
+}
+
+/*FOOTER*/
+ footer h6 {
+	margin-top: 15px;
+}
+
+footer .colonna {
+	width: 30%;
+	height: 200px;
+	color: white;
+	margin: 15px 0;
+	display: inline-block;
+}
+
+#sup {
+	background-image: url("img/monitor.jpg");
+}
+
+#bott {
+	background-image: url("img/graph.jpg");
+}
